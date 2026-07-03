@@ -1,0 +1,10 @@
+{
+  "n_member_gaps": 29702,
+  "n_open_spans": 39451,
+  "member_gaps_multi_span": 8092,
+  "pct_member_gaps_reopened": 0.2724,
+  "reopen_events": 9749,
+  "pct_spans_are_reopenings": 0.2471,
+  "max_spans_per_member_gap": 10,
+  "note": "open-gap spans only; reopening = volatility (not isolated reattribution)"
+}
