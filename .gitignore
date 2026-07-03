@@ -1,0 +1,26 @@
+# data and any patient-level extracts (never commit PHI)
+data/
+*.parquet
+*.csv
+*.xlsx
+*.dta
+
+# secrets and credentials
+.env
+.env.*
+*.vault-token
+.vault-token
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# os
+.DS_Store
+
+# python caches
+__pycache__/
+*.pyc

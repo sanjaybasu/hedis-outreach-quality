@@ -1,0 +1,43 @@
+{
+  "AAP": {
+    "reached": 4575,
+    "responded": 558,
+    "response_rate": 0.122,
+    "closure_among_reached": 0.3697
+  },
+  "BCS-E": {
+    "reached": 1435,
+    "responded": 204,
+    "response_rate": 0.1422,
+    "closure_among_reached": 0.1605
+  },
+  "CCS": {
+    "reached": 909,
+    "responded": 162,
+    "response_rate": 0.1782,
+    "closure_among_reached": null
+  },
+  "EED": {
+    "reached": 419,
+    "responded": 93,
+    "response_rate": 0.222,
+    "closure_among_reached": 0.2263
+  },
+  "GSD": {
+    "reached": 922,
+    "responded": 204,
+    "response_rate": 0.2213,
+    "closure_among_reached": 0.2931
+  },
+  "WCV": {
+    "reached": 4754,
+    "responded": 1090,
+    "response_rate": 0.2293,
+    "closure_among_reached": 0.2957
+  },
+  "_total": {
+    "reached": 13014,
+    "responded": 2311,
+    "response_rate": 0.1776
+  }
+}

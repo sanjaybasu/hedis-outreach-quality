@@ -1,0 +1,62 @@
+{
+  "AAP": {
+    "n_gaps": 8338,
+    "autosms": {
+      "n": 3091,
+      "closure": 0.5024
+    },
+    "not_outreached": {
+      "n": 5247,
+      "closure": 0.9615
+    },
+    "diff_pp": -45.9
+  },
+  "BCS-E": {
+    "n_gaps": 1623,
+    "autosms": {
+      "n": 758,
+      "closure": 0.3377
+    },
+    "not_outreached": {
+      "n": 865,
+      "closure": 0.6289
+    },
+    "diff_pp": -29.1
+  },
+  "EED": {
+    "n_gaps": 4844,
+    "autosms": {
+      "n": 419,
+      "closure": 0.3389
+    },
+    "not_outreached": {
+      "n": 4425,
+      "closure": 0.6531
+    },
+    "diff_pp": -31.4
+  },
+  "GSD": {
+    "n_gaps": 19074,
+    "autosms": {
+      "n": 3768,
+      "closure": 0.7864
+    },
+    "not_outreached": {
+      "n": 15306,
+      "closure": 0.7489
+    },
+    "diff_pp": 3.8
+  },
+  "WCV": {
+    "n_gaps": 13347,
+    "autosms": {
+      "n": 3273,
+      "closure": 0.4592
+    },
+    "not_outreached": {
+      "n": 10074,
+      "closure": 0.6754
+    },
+    "diff_pp": -21.6
+  }
+}
