@@ -1,0 +1,7 @@
+-- Member crosswalk: care-platform id (cuid) -> HEDIS "WAY" person id, via medicaid number.
+-- Care platform (lighthouse) Patient.id + medicaidNumber; coredb dbt.eligibility person_id + medicaid_number.
+-- Lighthouse:
+--   select id as cuid, "medicaidNumber" as mn from "Patient" where "medicaidNumber" is not null;
+-- coredb:
+--   select distinct person_id as way, medicaid_number as mn from dbt.eligibility where medicaid_number is not null;
+-- Join on mn. Achieves ~99.6% linkage of activated members.

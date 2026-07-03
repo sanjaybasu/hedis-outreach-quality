@@ -1,0 +1,33 @@
+{
+  "gate_passing": [
+    "AAP",
+    "WCV",
+    "BCS-E"
+  ],
+  "event_time_pp": {
+    "-4": 0.4,
+    "-3": -0.6,
+    "-2": -0.6,
+    "-1": 0.0,
+    "0": 2.5,
+    "1": 4.8,
+    "2": 6.9,
+    "3": 8.9,
+    "4": 11.7,
+    "5": 10.8
+  },
+  "avg_post_ATT_pp": 7.6,
+  "avg_post_ATT_ci": [
+    7.0,
+    8.3
+  ],
+  "max_pretrend_pp": 0.58,
+  "honest_did_M": 13.1,
+  "per_measure": {
+    "AAP": 9.3,
+    "WCV": 6.5,
+    "BCS-E": 3.2,
+    "GSD_not_identified": -19.3,
+    "GSD_maxpre": 2.5
+  }
+}

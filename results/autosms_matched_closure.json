@@ -1,0 +1,14 @@
+{
+  "n": 5916,
+  "n_messaged": 5730,
+  "n_not": 186,
+  "crude_diff_pp": -3.5,
+  "att_std_diff_pp": -3.2,
+  "iptw_att_diff_pp": -5.2,
+  "iptw_msg_pct": 32.0,
+  "iptw_not_pct": 37.2,
+  "smd_pre": 1.026,
+  "smd_post": 0.413,
+  "att_rr": 0.859,
+  "e_value": 1.6
+}
