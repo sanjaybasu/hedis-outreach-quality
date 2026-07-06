@@ -7,62 +7,50 @@
     "GSD": 922,
     "WCV": 4754
   },
-  "per_patient_minutes": {
-    "AAP": 3.0,
-    "BCS-E": 3.0,
-    "CCS": 5.0,
-    "EED": 3.0,
-    "GSD": 3.0,
-    "WCV": 3.25
-  },
+  "min_per_patient": 2.0,
   "base": {
     "by_measure": {
       "AAP": {
         "reached": 4575,
-        "min_per_patient": 3.0,
-        "hours": 228.8,
-        "grounded": false
+        "hours": 152.5
       },
       "BCS-E": {
         "reached": 1435,
-        "min_per_patient": 3.0,
-        "hours": 71.8,
-        "grounded": true
+        "hours": 47.8
       },
       "CCS": {
         "reached": 909,
-        "min_per_patient": 5.0,
-        "hours": 75.8,
-        "grounded": true
+        "hours": 30.3
       },
       "EED": {
         "reached": 419,
-        "min_per_patient": 3.0,
-        "hours": 20.9,
-        "grounded": false
+        "hours": 14.0
       },
       "GSD": {
         "reached": 922,
-        "min_per_patient": 3.0,
-        "hours": 46.1,
-        "grounded": false
+        "hours": 30.7
       },
       "WCV": {
         "reached": 4754,
-        "min_per_patient": 3.25,
-        "hours": 257.5,
-        "grounded": true
+        "hours": 158.5
       }
     },
-    "total_hours": 700.8,
-    "total_fte_year": 0.337,
-    "grounded_only_hours": 405.0,
-    "grounded_only_fte_year": 0.195,
+    "min_per_patient": 2.0,
+    "total_reached": 13014,
+    "total_hours": 433.8,
+    "total_fte_year": 0.209,
+    "hours_per_1000_gaps": 33.3,
     "assumptions": {
-      "common_steps_sec": 120,
+      "steps_sec": {
+        "lookup_name_dob_mrn": 30,
+        "search_record": 60,
+        "confirm_identity": 15,
+        "open_relevant_tab": 15
+      },
+      "min_per_patient": 2.0,
       "fte_hours_year": 2080,
       "time_multiplier": 1.0,
-      "note": "care-team standard time estimates; grounded vs analogy-mapped separated"
+      "note": "identification time only; excludes clinical verification and scheduling"
     }
   },
   "sensitivity": {
@@ -70,105 +58,91 @@
       "by_measure": {
         "AAP": {
           "reached": 4575,
-          "min_per_patient": 2.25,
-          "hours": 171.6,
-          "grounded": false
+          "hours": 114.4
         },
         "BCS-E": {
           "reached": 1435,
-          "min_per_patient": 2.25,
-          "hours": 53.8,
-          "grounded": true
+          "hours": 35.9
         },
         "CCS": {
           "reached": 909,
-          "min_per_patient": 3.75,
-          "hours": 56.8,
-          "grounded": true
+          "hours": 22.7
         },
         "EED": {
           "reached": 419,
-          "min_per_patient": 2.25,
-          "hours": 15.7,
-          "grounded": false
+          "hours": 10.5
         },
         "GSD": {
           "reached": 922,
-          "min_per_patient": 2.25,
-          "hours": 34.6,
-          "grounded": false
+          "hours": 23.1
         },
         "WCV": {
           "reached": 4754,
-          "min_per_patient": 2.438,
-          "hours": 193.1,
-          "grounded": true
+          "hours": 118.8
         }
       },
-      "total_hours": 525.6,
-      "total_fte_year": 0.253,
-      "grounded_only_hours": 303.8,
-      "grounded_only_fte_year": 0.146,
+      "min_per_patient": 1.5,
+      "total_reached": 13014,
+      "total_hours": 325.4,
+      "total_fte_year": 0.156,
+      "hours_per_1000_gaps": 25.0,
       "assumptions": {
-        "common_steps_sec": 120,
+        "steps_sec": {
+          "lookup_name_dob_mrn": 30,
+          "search_record": 60,
+          "confirm_identity": 15,
+          "open_relevant_tab": 15
+        },
+        "min_per_patient": 1.5,
         "fte_hours_year": 2080,
         "time_multiplier": 0.75,
-        "note": "care-team standard time estimates; grounded vs analogy-mapped separated"
+        "note": "identification time only; excludes clinical verification and scheduling"
       }
     },
     "times_plus_25pct": {
       "by_measure": {
         "AAP": {
           "reached": 4575,
-          "min_per_patient": 3.75,
-          "hours": 285.9,
-          "grounded": false
+          "hours": 190.6
         },
         "BCS-E": {
           "reached": 1435,
-          "min_per_patient": 3.75,
-          "hours": 89.7,
-          "grounded": true
+          "hours": 59.8
         },
         "CCS": {
           "reached": 909,
-          "min_per_patient": 6.25,
-          "hours": 94.7,
-          "grounded": true
+          "hours": 37.9
         },
         "EED": {
           "reached": 419,
-          "min_per_patient": 3.75,
-          "hours": 26.2,
-          "grounded": false
+          "hours": 17.5
         },
         "GSD": {
           "reached": 922,
-          "min_per_patient": 3.75,
-          "hours": 57.6,
-          "grounded": false
+          "hours": 38.4
         },
         "WCV": {
           "reached": 4754,
-          "min_per_patient": 4.062,
-          "hours": 321.9,
-          "grounded": true
+          "hours": 198.1
         }
       },
-      "total_hours": 876.0,
-      "total_fte_year": 0.421,
-      "grounded_only_hours": 506.3,
-      "grounded_only_fte_year": 0.243,
+      "min_per_patient": 2.5,
+      "total_reached": 13014,
+      "total_hours": 542.2,
+      "total_fte_year": 0.261,
+      "hours_per_1000_gaps": 41.7,
       "assumptions": {
-        "common_steps_sec": 120,
+        "steps_sec": {
+          "lookup_name_dob_mrn": 30,
+          "search_record": 60,
+          "confirm_identity": 15,
+          "open_relevant_tab": 15
+        },
+        "min_per_patient": 2.5,
         "fte_hours_year": 2080,
         "time_multiplier": 1.25,
-        "note": "care-team standard time estimates; grounded vs analogy-mapped separated"
+        "note": "identification time only; excludes clinical verification and scheduling"
       }
-    },
-    "fte_1872_direct_hours": {
-      "total_fte_year": 0.374,
-      "grounded_only_fte_year": 0.216
     }
   }
 }
