@@ -13,7 +13,7 @@ so the two never drift.
   - the naive contacted-vs-uncontacted / matched comparison
     (`results/autosms_matched_closure.json`, `results/autosms_matched_comparator.json`,
     `results/autosms_closure_nondropped.json`), and
-  - the target-trial earlier-vs-later difference-in-differences
+  - the target-trial earlier-vs-later comparison, a quasi-experimental difference-in-differences
     (`results/activation_did.json`, `results/autosms_riskset_closure.json`).
 
 Nothing here has been removed. This is the reproducibility record.
@@ -24,7 +24,7 @@ Nothing here has been removed. This is the reproducibility record.
   paper** because its closure effect could not be identified (pre-contact trends did not
   match), so it would contribute reach/burden rows without an effect estimate. GSD data
   remain here in full.
-- **One design.** The manuscript presents the **target-trial earlier-vs-later** design as
+- **One design.** The manuscript presents the **target-trial earlier-vs-later** design (a quasi-experimental difference-in-differences) as
   the method. The naive contacted-vs-uncontacted comparison is retained in this repository
   but is no longer presented as a headline contrast in the paper.
 
